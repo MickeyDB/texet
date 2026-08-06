@@ -1,0 +1,6 @@
+.\teams.exe -r "1.AR8Aa1inf2RTE0KlOsngNdXFjtY<SNIP>" list --tenant "newwavecloud.onmicrosoft.com" -o output.json
+AzureHound v2.12.2
+Created by the BloodHound Enterprise team - https://bloodhoundenterprise.io
+
+No configuration file located at C:\Users\AARMACL1\.config\azurehound\config.json
+2026-08-06T09:12:05+02:00 ERR encountered unrecoverable error error="failed to create new Azure client: map[correlation_id:bed88010-6858-4b02-b29f-83d691c0bb4d error:invalid_grant error_codes:[70000] error_description:AADSTS70000: Provided grant is invalid or malformed. Trace ID: 939edd51-7b41-4e6e-816d-703261fb2301 Correlation ID: bed88010-6858-4b02-b29f-83d691c0bb4d Timestamp: 2026-08-06 07:12:05Z error_uri:https://login.microsoftonline.com/error?code=70000 timestamp:2026-08-06 07:12:05Z trace_id:939edd51-7b41-4e6e-816d-703261fb2301]"
