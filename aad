@@ -5,3 +5,7 @@ S-1-5-21-1610179471-940857584-1233803906-46657
 
 
 S-1-5-21-1610179471-940857584-1233803906-43950
+
+
+
+az rest --method GET --uri 'https://graph.windows.net/7FA7586B-5364-4213-A53A-C9E035D5C58E/policies?api-version=1.61-internal' | jq '.value[] | select(.policyType == 18) | {displayName, policyDetail: (.policyDetail[] | fromjson)}'
