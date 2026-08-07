@@ -1,0 +1,1508 @@
+
+  ________                     __      _______      by Beau Bullock (@dafthack)                                
+ /_______/___________  ______ |  |____/_______\__ __  ____   ____   ___________ 
+/___\  __\______\____\ \_____\|__|__\|________/__|__\/____\ /____\_/____\______\
+\    \_\  \  | \// __ \|  |_/ |   Y  \    |   \  |  /   |  \   |  \  ___/|  | \/
+ \________/__|  (______/__|   |___|__|____|___/____/|___|__/___|__/\___| >__|   
+                 Do service principals dream of electric sheep?
+                       
+For usage information see the wiki here: https://github.com/dafthack/GraphRunner/wiki
+To list GraphRunner modules run List-GraphRunnerModules
+
+
+PS C:\Users\AARMACL1> 
+PS C:\Users\AARMACL1> 
+PS C:\Users\AARMACL1> Get-DynamicGroups -Tokens $tokens
+[*] Using the provided access tokens.
+[*] Now gathering groups and checking if each one is a dynamic group.
+[+] Found dynamic group: SGDD_Autopilot_AllDevices
+[+] Found dynamic group: SGDD_Autopilot_NWIT
+[+] Found dynamic group: SGDD_Autopilot_TEN
+[+] Found dynamic group: DEV_SG_INTUNE_Company_Portal
+[+] Found dynamic group: SGDD_DeviceType_NUC
+[*] Processing more groups...
+[+] Found dynamic group: DEV_SG_AZR_Android_Synq_BE
+[+] Found dynamic group: SGDD_Autopilot_MSA
+[+] Found dynamic group: SGDD_Autopilot_FKK
+[+] Found dynamic group: SGDD_Client_Patch__Wave_1
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_COT
+[+] Found dynamic group: SGDD_Autopilot_BTC
+[+] Found dynamic group: SGDD_Autopilot_MAM
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWGI
+[+] Found dynamic group: SGDD_Autopilot_GSP
+[+] Found dynamic group: SGDD_Autopilot_UBS
+[*] Processing more groups...
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_GLA
+[+] Found dynamic group: ADM_Intune_Windows_11_22H2_Devices
+[+] Found dynamic group: SGDD_Autopilot_KFO
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_DeviceType_Virtual
+[+] Found dynamic group: SGDU_Meraki_Dashboard_Readers
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWAT
+[+] Found dynamic group: ADM_Intune_Windows_10_Devices
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_DeviceCategory_Special_Client
+[+] Found dynamic group: SGDD_Autopilot_COT
+[+] Found dynamic group: NWG_AAD_MalinHammarmo
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWFR
+[+] Found dynamic group: All Users
+[+] Found dynamic group: SGDD_Autopilot_NWIC
+[+] Found dynamic group: SGDU_Meraki_Dashboard_Administrators
+[+] Found dynamic group: SGDD_MSA
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_TPS
+[+] Found dynamic group: SGDD_Autopilot_NWNO
+[+] Found dynamic group: SGDD_Autopilot_NWG
+[+] Found dynamic group: SGDD_Autopilot_KFB
+[+] Found dynamic group: SGDD_Autopilot_PAX
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_COT
+[+] Found dynamic group: SGDD_Autopilot_TST
+[*] Processing more groups...
+[+] Found dynamic group: ADM_Intune_Windows_11_23H2_Devices
+[+] Found dynamic group: SGDD_Autopilot_MAM
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWGB
+[+] Found dynamic group: SGDD_Android_DEV
+[+] Found dynamic group: SGDD_Autopilot_LPV
+[+] Found dynamic group: SGDD_Autopilot_NWGK
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWFI
+[+] Found dynamic group: SGDD_DeviceType_Surface
+[+] Found dynamic group: SGDD_Autopilot_GC
+[*] Processing more groups...
+[+] Found dynamic group: ADM_Intune_Windows_11_24H2_Devices
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_KFA
+[+] Found dynamic group: SGDD_Autopilot_DEV
+[*] Processing more groups...
+[+] Found dynamic group: ADM_Intune_APP_SysAid_PRZ_TPP_Names
+[+] Found dynamic group: SGDD_AndroidDevices
+[+] Found dynamic group: SGDD_Autopilot_COT
+[+] Found dynamic group: SGDD_Autopilot_NWNL
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWGO
+[+] Found dynamic group: SGDD_DeviceType_Optiplex
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_SAG
+[+] Found dynamic group: SGDD_DeviceType_MCore
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_TXDE
+[*] Processing more groups...
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWDE
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWGC
+[+] Found dynamic group: SGDD_Autopilot_NWCH
+[+] Found dynamic group: SGDD_Autopilot_DEK
+[+] Found dynamic group: SGDD_Autopilot_PJ
+[+] Found dynamic group: SGDD_Autopilot_TPP
+[+] Found dynamic group: SGDU-NWNA-Synced-users
+[+] Found dynamic group: SGDD_DeviceType_Latitude
+[+] Found dynamic group: SGDD_Autopilot_CRA
+[+] Found dynamic group: SGDD_Autopilot_NWDK
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_TXBE
+[+] Found dynamic group: SGDD_Autopilot_OKB
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_COT
+[+] Found dynamic group: SGDD_Autopilot_DJ
+[+] Found dynamic group: SGDD_Autopilot_TXDK
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_TXPL
+[+] Found dynamic group: SGDD_DeviceCategory_Standard_PC
+[+] Found dynamic group: SGDD_Autopilot_TXBE_Shared
+[*] Processing more groups...
+[+] Found dynamic group: ADM_Intune_Windows_11_25H2_Devices
+[+] Found dynamic group: ADM_Intune_Device_NWG_AutoPatch_Devices
+[+] Found dynamic group: SGDD_Autopilot_TXFR
+[+] Found dynamic group: SGD_All_Intune_Managed_Windows_Devices
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_DeviceType_Esprimo
+[+] Found dynamic group: SGDD_Autopilot_TJH
+[+] Found dynamic group: SGDD_Autopilot_TOP
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_SEG
+[+] Found dynamic group: SGDD_Autopilot_KBAH
+[*] Processing more groups...
+[+] Found dynamic group: NWG_SGD_Nextcloud_Users
+[+] Found dynamic group: SGDD_Autopilot_KLO
+[+] Found dynamic group: DEV_SG_AZR_AndroidEnterprise_Kiosk_Device
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_NWGV
+[+] Found dynamic group: SGDD_Autopilot_TXSE
+[+] Found dynamic group: SGDD_DeviceType_Precision
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_SAD
+[+] Found dynamic group: SGDD_Autopilot_NWSE
+[+] Found dynamic group: SGDD_Autopilot_NWGE
+[+] Found dynamic group: SGDD_Autopilot_XTN
+[+] Found dynamic group: SGDD_Autopilot_COT
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_DeviceType_ProOne
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_TGH
+[+] Found dynamic group: SGDD_Autopilot_NWES
+[*] Processing more groups...
+[+] Found dynamic group: SGDD_Autopilot_JOB
+[*] Found 100 dynamic groups.
+================================================================================
+
+
+Group Name                       : SGDD_Autopilot_AllDevices
+Group ID                         : 03a3dc08-4804-4f4b-9e85-bb945001a1e2
+Description                      : Group for all Autopilot enabled devices
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2019-10-01T12:29:36Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIDs -any _ -contains "[ZTDId]")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWIT
+Group ID                         : 04b0d9ff-3d00-4de6-8e6c-f62ebd29fe88
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:37Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWIT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TEN
+Group ID                         : 05936a60-d891-48fb-b87b-a972700b1c8a
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2023-10-24T11:29:20Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TEN"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : DEV_SG_INTUNE_Company_Portal
+Group ID                         : 05fb7a29-c25b-4e45-bc96-5d3d0a305792
+Description                      : Adds Company Portal APP
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2020-01-23T12:46:35Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and (device.displayName -eq "borsfb01") or (device.displayName -eq 
+                                   "DESKTOP-H8MCH8L") or (device.displayName -eq "STNSFB03") or (device.displayName -eq "DESKTOP-P8CT7DF")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_NUC
+Group ID                         : 07877fb6-b1e0-4e38-a28d-00aae661aa16
+Description                      : All Intel NUC systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T13:04:48Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "NUC")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : DEV_SG_AZR_Android_Synq_BE
+Group ID                         : 0905299b-9ef5-479a-a6fa-b406b2a4d9b0
+Description                      : Synq BE Application
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2020-01-22T09:21:25Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -eq "TC8300")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_MSA
+Group ID                         : 09a1af23-6c30-42f0-a054-26a702dc5632
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-04-11T08:31:32Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:MSA"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_FKK
+Group ID                         : 09e2e53e-6177-458f-98c2-bab21e13be89
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:09Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:FKK"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Client_Patch__Wave_1
+Group ID                         : 0db47bb0-7b7e-4ad1-aad4-122fb76ce69f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2023-10-23T06:43:42Z
+Visibility                       : 
+MembershipRule                   : (device.displayName -contains "9")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : 154b32ff-0ceb-483e-b041-cc9c19364717
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:19:36Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_BTC
+Group ID                         : 156a167b-7cd4-40f5-a229-2c999fad0be2
+Description                      : Dynamic device group for Autopilot devices with OrderID: BTC
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-09-16T07:17:47Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:BTC"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_MAM
+Group ID                         : 15caa5fd-2863-4a21-b6e2-4678fc96ccff
+Description                      : Dynamic device group for Autopilot devices with OrderID: MAM
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:42:45Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:MAM"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGI
+Group ID                         : 180d148f-cd10-4cf3-8bcb-c23b064b2478
+Description                      : Dynamic device group for Autopilot devices with OrderID: NWGI
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-11-24T08:34:34Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGI"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_GSP
+Group ID                         : 184a8484-582d-4ea9-899d-3456131525b5
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:10Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:GSP"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_UBS
+Group ID                         : 1c99e63b-6eee-4bac-a81a-1d3d9abe960e
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:33Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:UBS"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_GLA
+Group ID                         : 2453a9af-12b4-41c6-807d-edcb8c24cfd8
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:10Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:GLA"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Windows_11_22H2_Devices
+Group ID                         : 2a6c996e-9e01-48cd-81d3-48dd8b94eb58
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-17T06:47:57Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and (device.deviceOSVersion -startsWith "10.0.22621")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_KFO
+Group ID                         : 2a7d1c5b-0e6f-4e5c-8ee7-7292efb628ba
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:12Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:KFO"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Virtual
+Group ID                         : 308dabc0-79a1-4c11-bb10-71b69dc2cec3
+Description                      : All Virtual Systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T12:55:31Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Virt") or (device.deviceModel -startsWith "VM")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDU_Meraki_Dashboard_Readers
+Group ID                         : 3184e440-336c-4010-9a44-4b3bdf55cf26
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2024-06-10T12:59:24Z
+Visibility                       : 
+MembershipRule                   : user.memberof -any (group.objectId -in ['f013b59d-2a86-49da-8789-b2b3d2d2b6a5']) -not (user.memberof -any (group.objectId 
+                                   -in ['b9811f63-50dc-40be-8fe0-426bb5b59672']))
+                                    
+                                   
+                                   
+                                   
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWAT
+Group ID                         : 3256eaee-73d6-4fa6-b19c-89e969efdb0f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:40Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWAT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Windows_10_Devices
+Group ID                         : 34ffb567-03ae-4a5b-a5a8-b89bd12670bd
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-17T06:47:24Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and (device.deviceOSVersion -startsWith "10.0.190")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceCategory_Special_Client
+Group ID                         : 396e762f-30f1-41a7-84f9-b56d80ade43f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T09:38:57Z
+Visibility                       : 
+MembershipRule                   : (device.deviceCategory -eq "Special_Client")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : 39de5e39-a4a0-48ea-853c-8524319f4f40
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:34:15Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : NWG_AAD_MalinHammarmo
+Group ID                         : 3aa79037-6783-42e9-9192-7262d5734aed
+Description                      : Group for Malin Hammarmo, local admin
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2021-09-10T08:53:11Z
+Visibility                       : 
+MembershipRule                   : (user.mail -eq "malin.hammarmo@multisourcingasia.com")
+Membership Rule Processing State : Paused
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWFR
+Group ID                         : 4000c3d2-c6b2-4753-83c5-c7c5fa1f74bd
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:42Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWFR"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : All Users
+Group ID                         : 43f33f24-fa2a-47e2-9f58-4777008b25ad
+Description                      : Auto generated group, do not change
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-05-02T08:49:53Z
+Visibility                       : 
+MembershipRule                   : All Users
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWIC
+Group ID                         : 44181107-b52a-4966-b956-09c8c905c9d5
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:36Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWIC"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDU_Meraki_Dashboard_Administrators
+Group ID                         : 45604e97-5b9d-4b3e-a5f2-2ed1d1de28c5
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2024-06-10T12:45:25Z
+Visibility                       : 
+MembershipRule                   : user.memberof -any (group.objectId -in ['b9811f63-50dc-40be-8fe0-426bb5b59672'])
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_MSA
+Group ID                         : 45bd3fd7-c303-4bfe-9fc9-599de9060011
+Description                      : Dynamic based on device prefix - MultiSourcingAsia
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2021-01-21T14:46:40Z
+Visibility                       : 
+MembershipRule                   : (device.displayName -startsWith "MSA")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TPS
+Group ID                         : 46ba0e81-af7f-4f1e-a08b-ae3f4049e8fd
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:56Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TPS"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWNO
+Group ID                         : 48f6a88b-76ee-4a6e-bc46-58ce588e30ed
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:38Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWNO"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWG
+Group ID                         : 4a022f47-add4-4409-8a65-034eeefd24d1
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-04-07T12:18:50Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWG"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_KFB
+Group ID                         : 4ada65eb-7857-483c-b7c9-2df8743482d5
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:12Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:KFB"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_PAX
+Group ID                         : 4b98a30f-e9bd-4c82-82af-b9852a0e18fb
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:38Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:PAX"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : 502743b7-e8ee-4ec1-83ad-488cb0ad4424
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:22:32Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TST
+Group ID                         : 5408cc76-636c-4342-94cf-7fdbdd8c922b
+Description                      : Dynamic device group for Autopilot devices with OrderID: TST
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-12-15T13:51:39Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TST"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Windows_11_23H2_Devices
+Group ID                         : 55dc2258-a33d-4214-8409-7cf612ce8a68
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-17T06:48:27Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") -and (device.deviceOSVersion -startsWith "10.0.22631")
+                                   
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_MAM
+Group ID                         : 5a2607a9-c57b-4681-aae2-4fd8279ebd67
+Description                      : Dynamic device group for Autopilot devices with OrderID: MAM
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:39:20Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:MAM"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGB
+Group ID                         : 5ea59bec-7e84-4895-85d0-b5fd9877e070
+Description                      : Autopilot group for NWGB
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2024-07-09T06:45:28Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGB"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Android_DEV
+Group ID                         : 5eb048d6-098c-422b-88f8-deeeccd98c1c
+Description                      : Android Scanner
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2019-10-02T14:34:54Z
+Visibility                       : 
+MembershipRule                   : (device.enrollmentProfileName -eq "DEV Android Phone")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_LPV
+Group ID                         : 5fc1e5b7-2b08-4980-a666-6231b833254b
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:13Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:LPV"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGK
+Group ID                         : 6114d5fc-9809-49cb-b95a-fa032dd813fc
+Description                      : Dynamic device group for Autopilot devices with OrderID: NWGK
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-06-02T11:05:54Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGK"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWFI
+Group ID                         : 66b4dea8-5479-4d6d-ad1e-c0be716bc954
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:42Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWFI"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Surface
+Group ID                         : 697cd4e2-2510-486d-a206-2ce5f35091b7
+Description                      : All MS Surface systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T12:44:29Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Surface")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_GC
+Group ID                         : 6bbd4eaa-3f19-4b9e-bb8e-833ecfdd3122
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:09Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:GC"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Windows_11_24H2_Devices
+Group ID                         : 6d6eb1da-ad69-43fb-b9b7-318b79a84041
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-17T06:48:58Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and (device.deviceOSVersion -startsWith "10.0.26100")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_KFA
+Group ID                         : 76f10811-ed03-46cc-9daa-06c6294763ae
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:11Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:KFA"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_DEV
+Group ID                         : 782063c0-f876-4f56-8df9-d128b442d37a
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-04-30T15:24:50Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:DEV"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_APP_SysAid_PRZ_TPP_Names
+Group ID                         : 7c04401c-24fe-4e5a-a7ec-d9a745aac6ae
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2026-05-22T14:00:29Z
+Visibility                       : 
+MembershipRule                   : (device.displayName -startsWith "TPP") or (device.displayName -startsWith "PRZ")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_AndroidDevices
+Group ID                         : 7d13bca4-339a-48a1-8b00-a44b9b7f0c0d
+Description                      : All Android Devices
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2019-10-02T14:32:57Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Android")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : 7dc7be97-3f7e-42c2-bce8-b41a19f51902
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:30:41Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWNL
+Group ID                         : 7e1c3099-303a-4249-9537-8d360d63852a
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:37Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWNL"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGO
+Group ID                         : 800abf16-b986-4002-9f21-22e7afa1d88c
+Description                      : Dynamic device group for Autopilot devices with OrderID: NWGO
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-06-17T08:06:46Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGO"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Optiplex
+Group ID                         : 81b3bba8-efd6-4044-8d5f-9ed30a44ecc8
+Description                      : All Dell Optiplex systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T12:53:00Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Optiplex")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_SAG
+Group ID                         : 8aa0d2a1-ecae-45f1-a850-307ec6ceba6d
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:39Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:SAG"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_MCore
+Group ID                         : 8e15e89c-9af3-4341-8a71-6585f1fb6f2d
+Description                      : All MCore systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T13:03:13Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "MCore")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXDE
+Group ID                         : 966d2745-9995-4d3d-ae91-e8660d4d7d60
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:32Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXDE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWDE
+Group ID                         : 9f2a6d97-2c3d-44ba-bafa-7e63b42dade6
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:41Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWDE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGC
+Group ID                         : a5adf6e2-5133-4841-a721-03892559e4a4
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:36Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGC"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWCH
+Group ID                         : a5c6ab95-be04-4b59-8373-2ad473b4202e
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:40Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWCH"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_DEK
+Group ID                         : a69397e6-dc3e-4192-908c-028e3fecb37f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:30:28Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:DEK"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_PJ
+Group ID                         : a75c8745-23a2-461a-adf7-0caac1b739dc
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:39Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:PJ"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TPP
+Group ID                         : a76799d2-56da-4458-9e73-924da57c715b
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:56Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TPP"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDU-NWNA-Synced-users
+Group ID                         : a7b2d7d9-82f5-489c-8d15-d483b3af789f
+Description                      : All users in NWNA
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-03-25T13:29:47Z
+Visibility                       : 
+MembershipRule                   : (user.accountEnabled -eq true) and (user.userType -eq "Member") and (
+                                       (user.mail -endsWith "aheadhq.com") or 
+                                       (user.mail -endsWith "aheadhq.org") or 
+                                       (user.mail -endsWith "aheadsales.net") or 
+                                       (user.mail -endsWith "auclair.com") or 
+                                       (user.mail -endsWith "auclairgloves.com") or 
+                                       (user.mail -endsWith "auclairpro.com") or 
+                                       (user.mail -endsWith "auclairsports.com") or 
+                                       (user.mail -endsWith "auclair-sports.com") or 
+                                       (user.mail -endsWith "cbjoin.com") or 
+                                       (user.mail -endsWith "cliquecorporate.com") or 
+                                       (user.mail -endsWith "craftsports.ca") or 
+                                       (user.mail -endsWith "cutterbuck.biz") or 
+                                       (user.mail -endsWith "cutterbuck.ca") or 
+                                       (user.mail -endsWith "cutterbuck.com") or 
+                                       (user.mail -endsWith "cutterbuck.mail.onmicrosoft.com") or 
+                                       (user.mail -endsWith "cutterbuck.onmicrosoft.com") or 
+                                       (user.mail -endsWith "cutterbuck.org") or 
+                                       (user.mail -endsWith "cuttersales.ca") or 
+                                       (user.mail -endsWith "cuttersales.com") or 
+                                       (user.mail -endsWith "ferstar.com") or 
+                                       (user.mail -endsWith "glovesinternational.com") or 
+                                       (user.mail -endsWith "gloves-international.com") or 
+                                       (user.mail -endsWith "golfislife.biz") or 
+                                       (user.mail -endsWith "james-harvest.ca") or 
+                                       (user.mail -endsWith "jamesharvestco.com") or 
+                                       (user.mail -endsWith "laurentidegloves.com") or 
+                                       (user.mail -endsWith "laurentide-gloves.com") or 
+                                       (user.mail -endsWith "newwavena.com") or 
+                                       (user.mail -endsWith "newwavena.onmicrosoft.com") or 
+                                       (user.mail -endsWith "nwgna.net") or 
+                                       (user.mail -endsWith "o365.cbjoin.com") or 
+                                       (user.mail -endsWith "orrefors.us") or 
+                                       (user.mail -endsWith "parisglove.com") or 
+                                       (user.mail -endsWith "pgmpg.com") or 
+                                       (user.mail -endsWith "projob-workwear.com") or 
+                                       (user.mail -endsWith "texet.ca") or 
+                                       (user.mail -endsWith "tournamentsolutions.com")
+                                   )
+                                   
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Latitude
+Group ID                         : a7fa95de-6b24-49a5-a4db-27bbd7af8380
+Description                      : All Latitude Systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T12:42:00Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Latitude")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_CRA
+Group ID                         : a8ae910a-3950-4d1b-9b48-c6f82f7095c3
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-10-31T14:09:56Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:CRA"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWDK
+Group ID                         : aa0953c0-d1a1-47d6-813b-1f7333e7c886
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:41Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWDK"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXBE
+Group ID                         : b1a94cc8-83b6-49c8-8da6-283b1059be6f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-01T15:24:13Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXBE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_OKB
+Group ID                         : b28bbfd2-00b4-4493-9a54-1b881c52ef4d
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:38Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:OKB"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : b63e0c53-8627-4912-8f08-21ec51f30c50
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:40:03Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_DJ
+Group ID                         : b69704bb-4f7a-4ff5-a61c-f474bbec7d33
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:08Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:DJ"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXDK
+Group ID                         : b9410595-713c-4a10-9f0b-88e022a27f74
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:32Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXDK"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXPL
+Group ID                         : bad40049-5444-4ed7-a011-0b42326d30cd
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:33Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXPL"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceCategory_Standard_PC
+Group ID                         : be09109f-5dbb-4d51-ae5b-b17f6bccd48e
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T09:38:12Z
+Visibility                       : 
+MembershipRule                   : (device.deviceCategory -eq "Standard_PC")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXBE_Shared
+Group ID                         : bfa2644c-a0e3-463e-afd9-0a0334b048d7
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2024-09-13T12:59:34Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXBE_Shared"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Windows_11_25H2_Devices
+Group ID                         : c2461d54-3d1f-4c9a-ba6e-a26e4a539f9d
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-17T06:49:26Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and
+                                   (
+                                     (device.deviceOSVersion -startsWith "10.0.26200") or
+                                     (device.deviceOSVersion -startsWith "10.0 (26200")
+                                   )
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : ADM_Intune_Device_NWG_AutoPatch_Devices
+Group ID                         : c29a4428-1356-4a1e-baf8-c5fa95274043
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-20T07:22:05Z
+Visibility                       : 
+MembershipRule                   : (device.deviceOSType -eq "Windows") and 
+                                   (device.managementType -eq "MDM") and 
+                                   (device.deviceTrustType -eq "ServerAD")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXFR
+Group ID                         : c52aafd8-2123-46f7-b032-283560264033
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:32Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXFR"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGD_All_Intune_Managed_Windows_Devices
+Group ID                         : c5c0cc24-738a-499f-9055-c99f30fcb8a1
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2023-10-31T09:11:52Z
+Visibility                       : 
+MembershipRule                   : (device.deviceManagementAppId -eq "0000000a-0000-0000-c000-000000000000") and (device.deviceOSType -match "Windows")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Esprimo
+Group ID                         : ca94d5e1-3619-4767-8eb0-4c1bf7a6bd03
+Description                      : All Fujitsu Esprimo systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T13:00:10Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Esprimo")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TJH
+Group ID                         : cbce0170-072b-41b4-9561-907bbff6a84c
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2024-03-01T09:15:33Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TJH"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TOP
+Group ID                         : cf980a75-895c-405b-b174-552c89654005
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:56Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TOP"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_SEG
+Group ID                         : d441d614-3a9f-4517-be06-4e34ff8d2cde
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:40Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:SEG"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_KBAH
+Group ID                         : d5fc4463-284b-4233-b122-ac5a3730d71c
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:11Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:KBAH"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : NWG_SGD_Nextcloud_Users
+Group ID                         : d89fc4a6-fbe1-45c2-b91c-c77eca731ed8
+Description                      : Gives permission to log on to drive.nwg.se
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-09-14T13:14:00Z
+Visibility                       : 
+MembershipRule                   : (user.accountEnabled -eq true) and (user.objectId -ne null) and (user.userType -eq "Member")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_KLO
+Group ID                         : d8d85ec4-e6d3-4948-83ec-0de987290ef7
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:12Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:KLO"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : DEV_SG_AZR_AndroidEnterprise_Kiosk_Device
+Group ID                         : dd7bd986-0e0e-4442-bb7b-fa3ab5bb0b46
+Description                      : Android Enterprise Kiosk Devices
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2020-01-22T10:21:50Z
+Visibility                       : 
+MembershipRule                   : (device.enrollmentProfileName -eq "AE-Kiosk")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGV
+Group ID                         : e1319938-f704-45cf-8c34-d950dabab7b6
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:36Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGV"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TXSE
+Group ID                         : e232f6f4-510d-4291-baa3-8ef0a1a12860
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:33Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TXSE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_Precision
+Group ID                         : e3d03ead-9a3e-4b95-872b-c981937a15e6
+Description                      : All Dell Precision systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T13:05:54Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "Precision")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_SAD
+Group ID                         : e68897d1-c261-4f43-8187-0b6d2095988f
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2023-12-13T07:52:39Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:SAD"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWSE
+Group ID                         : e719b7db-8e1e-4acc-9109-3477c70dc885
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:39:38Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWSE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWGE
+Group ID                         : e8b87fa9-5b8e-4b60-ae6d-bcdf3cd66843
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-05-23T08:32:13Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWGE"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_XTN
+Group ID                         : e8de05c4-fd86-4a1e-a01b-ba793427a726
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:40:34Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:XTN"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_COT
+Group ID                         : ea179f9e-d2b3-4881-8a30-f16de869cac4
+Description                      : Dynamic device group for Autopilot devices with OrderID: COT
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2025-10-28T10:31:11Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:COT"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_DeviceType_ProOne
+Group ID                         : f2735874-42e0-495b-a191-4dd6a94dc091
+Description                      : All HP ProOne systems
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-12-06T13:01:10Z
+Visibility                       : 
+MembershipRule                   : (device.deviceModel -startsWith "HP ProOne")
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_TGH
+Group ID                         : f5e2c4d0-4edf-4e79-b221-a9181b0188ba
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-04-11T08:33:14Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:TGH"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_NWES
+Group ID                         : f8e8e799-7a4c-4a60-ab60-92ad7bfb782b
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:42Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:NWES"))
+Membership Rule Processing State : On
+
+
+================================================================================
+Group Name                       : SGDD_Autopilot_JOB
+Group ID                         : fdc6c403-14ce-42dd-8448-3a5b92c7eee9
+Description                      : 
+Is Assignable To Role            : 
+On-Prem Sync Enabled             : 
+Mail                             : 
+Created Date                     : 2022-11-07T09:38:10Z
+Visibility                       : 
+MembershipRule                   : (device.devicePhysicalIds -any (_ -eq "[OrderID]:JOB"))
+Membership Rule Processing State : On
+
+
+================================================================================
